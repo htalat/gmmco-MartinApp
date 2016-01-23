@@ -35,12 +35,31 @@ class ProductionMenuViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 5
+    }
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        if indexPath.row == 0
+        {
+            print("oneeee")
+        }else if indexPath.row == 1
+        {
+            print("twoooo")
+        }else if indexPath.row == 2
+        {
+            print("threeeee")
+        }else if indexPath.row == 3
+        {
+            
+        }else if indexPath.row == 4
+        {
+            performSegueWithIdentifier("show_inventory", sender: self)
+        }
     }
 
     /*

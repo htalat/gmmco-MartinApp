@@ -11,6 +11,7 @@
 		C60F58271C519CFF005DEE96 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60F58261C519CFF005DEE96 /* SWRevealViewController.m */; };
 		C60F582B1C51A1E5005DEE96 /* ProductionMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60F582A1C51A1E5005DEE96 /* ProductionMenuViewController.swift */; };
 		C60F582D1C51A7BE005DEE96 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60F582C1C51A7BE005DEE96 /* HomeViewController.swift */; };
+		C60F585B1C52F2F8005DEE96 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60F585A1C52F2F8005DEE96 /* InventoryViewController.swift */; };
 		C663BD6E1C504EF4009C50D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663BD6D1C504EF4009C50D9 /* AppDelegate.swift */; };
 		C663BD701C504EF4009C50D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663BD6F1C504EF4009C50D9 /* ViewController.swift */; };
 		C663BD731C504EF4009C50D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C663BD711C504EF4009C50D9 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		C60F58261C519CFF005DEE96 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		C60F582A1C51A1E5005DEE96 /* ProductionMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionMenuViewController.swift; sourceTree = "<group>"; };
 		C60F582C1C51A7BE005DEE96 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C60F585A1C52F2F8005DEE96 /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 		C663BD6A1C504EF4009C50D9 /* MartinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MartinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C663BD6D1C504EF4009C50D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C663BD6F1C504EF4009C50D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				C60F58241C519CFE005DEE96 /* MartinApp-Bridging-Header.h */,
 				C60F582A1C51A1E5005DEE96 /* ProductionMenuViewController.swift */,
 				C60F582C1C51A7BE005DEE96 /* HomeViewController.swift */,
+				C60F585A1C52F2F8005DEE96 /* InventoryViewController.swift */,
 			);
 			path = MartinApp;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60F585B1C52F2F8005DEE96 /* InventoryViewController.swift in Sources */,
 				C663BD701C504EF4009C50D9 /* ViewController.swift in Sources */,
 				C60F58231C5192B0005DEE96 /* MenuController.swift in Sources */,
 				C60F582B1C51A1E5005DEE96 /* ProductionMenuViewController.swift in Sources */,
